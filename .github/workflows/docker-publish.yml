@@ -33,7 +33,7 @@ jobs:
         env:
           CR_PAT: ${{ secrets.CR_PAT }}        
         run: |
-          .\infrastructure\deploy-infrastructure.ps1 -studentprefix <your abbreviation>
+          .\infrastructure\deploy-infrastructure.ps1 -studentprefix pgh
           
  
           
