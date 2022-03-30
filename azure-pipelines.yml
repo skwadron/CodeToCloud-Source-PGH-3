@@ -43,7 +43,7 @@ stages:
                   scriptType: 'pscore'
                   scriptLocation: 'scriptPath'
                   scriptPath: './infrastructure/deploy-infrastructure.ps1'
-                  arguments: 'tst'
+                  arguments: 'pgh'
                 env:
                   CR_PAT: $(CR_PAT)
                   
