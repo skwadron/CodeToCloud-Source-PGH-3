@@ -1,7 +1,4 @@
-param
-(
-    [string] $studentprefix = "tst"
-)
+$studentprefix = "pgh"
 
 $resourcegroupName = "fabmedical-rg-" + $studentprefix
 $cosmosDBName = "fabmedical-cdb-" + $studentprefix
