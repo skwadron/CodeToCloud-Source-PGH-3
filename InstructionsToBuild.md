@@ -33,5 +33,10 @@ And the web application
 cd content-web
 npm install
 ng build
+npm install applicationinsights --save
 node ./app.js
 ```
+
+In app.js change the App Insights Instrumentation Key.
+
+
